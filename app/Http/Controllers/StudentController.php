@@ -33,7 +33,6 @@ class StudentController extends Controller
     {
         $input = $request->all();
         Student::create($input);
-        dd($input);
         return redirect('students')->with('flash_message', 'Student Added');
     }
 
