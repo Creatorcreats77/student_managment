@@ -10,10 +10,10 @@
                     <input type="hidden" name="id" id="id" value="{{ $teachers->id }}">
                     <label>Name</label><br>
                     <input type="text" name="name" id="name" value="{{ $teachers->name }}" class="form-control"><br>
-                    <label>Course</label><br>
-                    <input type="text" name="course" id="course" value="{{ $teachers->course }}" class="form-control"><br>
-                    <label>Syllabus</label><br>
-                    <input type="text" name="syllabus" id="syllabus" value="{{ $teachers->syllabus }}" class="form-control"><br>
+                    <label>Address</label><br>
+                    <input type="text" name="address" id="address" value="{{ $teachers->address }}" class="form-control"><br>
+                    <label>Mobile</label><br>
+                    <input type="text" name="mobile" id="mobile" value="{{ $teachers->mobile }}" class="form-control"><br>
                     <input type="submit" value="update" class="btn btn-success"><br>
                 </form>
 
