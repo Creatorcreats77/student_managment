@@ -89,6 +89,7 @@
                     <a href="{{ url('/students') }}">Students</a>
                     <a href="{{ url('/teachers') }}">Teachers</a>
                     <a href="{{ url('/courses') }}">Courses</a>
+                    <a href="{{ url('/batches') }}">Batches</a>
                     <a href="#contact">Contact</a>
                     <a href="#about">About</a>
                 </div>
