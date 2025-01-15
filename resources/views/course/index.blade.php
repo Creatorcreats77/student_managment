@@ -16,9 +16,9 @@
                     <thead>
                     <tr>
                         <th>#</th>
-                        <th>Name</th>
-                        <th>Address</th>
-                        <th>Mobile</th>
+                        <th>Course</th>
+                        <th>Syllabus</th>
+                        <th>Duration</th>
                         <th>Actions</th>
                     </tr>
                     </thead>
@@ -28,7 +28,7 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $item->name }}</td>
                             <td>{{ $item->syllabus }}</td>
-                            <td>{{ $item->duration }}</td>
+                            <td>{{ $item->duration }} Months</td>
 
                             <td>
                                 <a href="{{ ('/courses/' . $item->id) }}" title="View Course"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i>View</button></a>

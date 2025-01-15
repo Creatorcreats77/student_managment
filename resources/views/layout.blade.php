@@ -90,8 +90,8 @@
                     <a href="{{ url('/teachers') }}">Teachers</a>
                     <a href="{{ url('/courses') }}">Courses</a>
                     <a href="{{ url('/batches') }}">Batches</a>
-                    <a href="#contact">Contact</a>
-                    <a href="#about">About</a>
+                    <a href="{{ url('/enrollments') }}">Enrollments</a>
+                    <a href="{{ url('/payments') }}">Payments</a>
                 </div>
             </div>
             <div class="col-md-9 content">
